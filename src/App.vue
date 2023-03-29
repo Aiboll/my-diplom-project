@@ -1,30 +1,33 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <header-components></header-components>
+  <BannerComponents></BannerComponents>
   <router-view/>
 </template>
-
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+*{
+  padding: 0;
+  margin: 0;
+  background: #403C3B;
+  a{
+    text-decoration: none;
+  }
+  div{
+    box-sizing: border-box;
   }
 }
+
+
+
 </style>
+
+<script>
+  import HeaderComponents from "./components/Header-components.vue";
+  import BannerComponents from "./components/Banner-components.vue"
+  export default{
+    components:{
+      HeaderComponents,
+      BannerComponents
+    }
+  }
+
+</script>
