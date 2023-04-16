@@ -1,0 +1,22 @@
+.promo{
+    &-top{
+        display: flex;  
+        border-bottom: 1px solid #787675;
+        padding-bottom: 36px;
+        h1{
+            padding-left: 19px;
+            align-items: center;
+            text-align: center;
+            margin-left: 145px;
+            margin-top: 50px;
+            
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: uppercase;
+            color: #fff;
+            border-left: 4px solid  #618967 ;     
+        }
+    }
+}

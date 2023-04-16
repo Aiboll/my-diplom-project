@@ -1,0 +1,83 @@
+.footer{
+    display: flex;
+    background: #211F20;
+    color: #fff;
+    background-color: #211F20;
+    .ellipse{
+        background: #211F20;
+        margin-top: 51px;
+        margin-bottom: 80px;
+        margin-left: 40px;
+        img{background: #211F20;}
+    }
+    &-info{
+        align-items: center;
+        text-align: start;  
+        gap: 7px;
+        // display: flex;
+        // flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 26px;
+        margin-top: 28px;
+        margin-left: 55px;
+        background: #211F20;
+        a{
+            background: #211F20;
+            img{
+                background: #211F20;
+                margin-bottom: 15px;
+            }
+        }
+        h1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            background: #211F20;
+            
+            color: #CFCFCF;
+            margin-bottom: 7px;
+        }
+        p{  
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+            border-bottom:  1px solid rgba(255, 255, 255, 0.2);
+            background: #212021;
+            margin-top: 7px;
+        }
+
+    }
+    &-menu{
+        margin-top: 19px;
+        margin-bottom: 159px;
+        margin-left: 105px;
+        background: #211F20;
+    
+        ul{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            list-style: none;
+            gap: 40px;
+            background: #211F20;
+            li{
+                text-align: center;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                background: #211F20;
+                color: #FFFFFF;
+            }
+            a{
+                color: #FFFFFF;
+                background: #211F20;
+            }
+        }
+    }
+}

@@ -1,0 +1,122 @@
+.basket{
+background:#44403F;
+display: flex;
+flex-direction: column;
+padding-left: 172px;
+padding-right: 172px;
+padding-bottom: 40px;
+justify-content: center;
+a{
+    margin-top: 112px;
+    margin-bottom: 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+    background:#44403F;
+    h1{
+        background:#44403F;
+    }
+    
+    
+}
+&-length{
+    display: flex;
+    align-items: center; 
+    padding-top: 20px;;
+    text-align: center;
+    flex-wrap: wrap;
+    color: #fff;
+    background:#44403F;
+    
+    span{
+        width: 33px;
+        height: 4px;
+        background: #618967;
+        transform: rotate(90deg);
+    }
+    .h1{    
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background:#44403F;
+    }
+}
+.basket-products{
+        display:flex ;
+        justify-content: space-around;
+        align-items: center;
+        text-align: start;
+        margin-top: 10px;
+        background:  #494544;
+        border-radius: 10px;
+        .basket-product-img{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        img{
+            width: 117px;
+            height: 86px;
+            background-size: cover;
+            background:  #494544;
+            
+        }  }
+        .basket-product-info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: start;
+            margin-left: 39px;
+            padding-bottom: 45px;
+            background:  #494544;
+            
+            h3{
+                width: 259px;
+                height: 22px;
+                text-align: start;
+                align-items: center;
+
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                color: #FFFFFF;
+                background:  #494544;
+            }
+            p{
+                height: 28px;
+                width: 400px;
+
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: #A6A7AB;
+                background:  #494544;
+            }
+        
+        }
+        .basket-product-price{
+            width: 61px;
+            height: 24px;  
+            padding-left: 400px;
+            background:  #494544; 
+            h2{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+
+                color: #FFFFFF;
+                background:  #494544;
+            }
+        }
+    }
+
+}
